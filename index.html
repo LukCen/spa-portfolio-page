@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <section class="header container-fluid w-100 d-grid bg-primary text-light p-1 m-0">
+  <section id="start" class="header container-fluid d-grid bg-primary text-light p-1 m-0">
     <div class="row">
       <nav class="d-flex flex-row m-0 ">
         <div class="col-2">
@@ -21,10 +21,13 @@
         </div>
         <div class="col-10 d-flex justify-content-end p-0 m-0">
           <div class="p-0 gap-2 mb-3">
-            <button class="btn btn-outline-light btn-lg px-3">Start</button>
-            <button class="btn btn-outline-light btn-lg px-3">About me</button>
-            <button class="btn btn-outline-light btn-lg px-3">Skills</button>
-            <button class="btn btn-outline-light btn-lg px-3">Tools I use</button>
+            <button class="btn btn-header btn-outline-light btn-lg"><a href="#">Start</a></button>
+            <button class="btn btn-header btn-outline-light btn-lg"><a href="#section-skills"
+                id="section-skills">Skills</a></button>
+            <button class="btn btn-header btn-outline-light btn-lg"><a href="#section-about-me">About
+                me</a></button>
+            <button class="btn btn-header btn-outline-light btn-lg"><a href="#section-tools">Tools I
+                use</a></button>
           </div>
         </div>
       </nav>
@@ -41,7 +44,25 @@
       </div>
     </div>
   </section>
-  <section class="about-me container-fluid w-100 d-grid bg-light text-dark p-1 m-0 border border-1"></section>
+  <section id="section-skills" class="about-me container-fluid d-grid bg-light text-dark p-1 m-0 border border-1">
+    <div class="row g-3 text-center">
+      <div class="col-12 p-3 mb-5">
+        <h2>Web Dev</h2>
+      </div>
+      <div class="col-4">HTML5</div>
+      <div class="col-4">CSS</div>
+      <div class="col-4">Bootstrap5</div>
+      <div class="col-4">JavaScript (ES6)</div>
+      <div class="col-4">TypeScript</div>
+      <div class="col-4">SASS</div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2></h2>
+      </div>
+    </div>
+
+  </section>
 </body>
 
 </html>
