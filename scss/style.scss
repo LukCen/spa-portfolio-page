@@ -1,9 +1,2 @@
-// body {
-//   display: flex;
-//   flex-direction: column;
-//   width: 100vw;
-//   padding: 0;
-//   margin: 0;
-// }
-
-@use "./header.scss"
+@use "./_header.scss";
+@use "./about-me.scss"
