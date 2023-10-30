@@ -27,4 +27,11 @@
   border-radius: 5px;
 }
 
+.skillset-separator {
+  display: block;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
