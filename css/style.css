@@ -22,4 +22,13 @@
   color: white;
 }
 
+.imageAboutPage {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.about ul li {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
