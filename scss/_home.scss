@@ -1,8 +1,9 @@
 .bg_image {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../assets/img/hero-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('../assets/img/hero-bg.jpg');
   background-size: cover;
   position: relative;
+
 }
 
 .hero_title {
@@ -21,5 +22,3 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-
-/*# sourceMappingURL=style.css.map */
