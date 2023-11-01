@@ -10,10 +10,15 @@
   font-weight: bold;
 }
 
-.work-experience {
-  box-sizing: border-box !important;
+.work-experience * {
+  border-radius: .375rem; // equal to border-1 for Bootstrap5
 
-  * {
-    border-radius: 5px;
-  }
 }
+
+.vr {
+  width: 1px;
+}
+
+// .list-group-item {
+//   border: 0;
+// }
