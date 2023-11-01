@@ -6,7 +6,7 @@
 }
 
 .hero_title {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
 }
 
 .hero_desc {
@@ -22,7 +22,7 @@
   color: white;
 }
 
-.imageAboutPage {
+.image-about-page {
   height: 300px;
   border-radius: 5px;
 }
@@ -32,6 +32,13 @@
   padding-top: 40px;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.work-experience {
+  box-sizing: border-box !important;
+}
+.work-experience * {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
